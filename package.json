@@ -2,6 +2,9 @@
   "name": "template-react-component-lib",
   "version": "0.0.1",
   "description": "Testing test test React component library!!!",
+  "repository": {
+    "url": "https://github.com/TheOmer77/template-react-component-lib"
+  },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
