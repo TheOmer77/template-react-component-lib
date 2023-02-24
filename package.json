@@ -49,9 +49,13 @@
     "react": "^18.2.0",
     "rollup": "^3.17.2",
     "rollup-plugin-dts": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "ts-node": "^10.9.1",
     "tslib": "^2.5.0",
     "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   }
 }
