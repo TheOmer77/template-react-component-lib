@@ -1,11 +1,13 @@
 import React from 'react';
 
+import './index.css';
+
 interface ButtonProps {
   label: string;
 }
 
 const Button = ({ label }: ButtonProps) => {
-  return <button>{label}</button>;
+  return <button className='button-wow'>{label}</button>;
 };
 
 export default Button;
