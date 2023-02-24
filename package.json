@@ -12,7 +12,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c rollup.config.mjs"
+    "build": "rollup -c rollup.config.mjs",
+    "build:watch": "rollup -c rollup.config.mjs -w"
   },
   "keywords": [],
   "author": "TheOmer77",
