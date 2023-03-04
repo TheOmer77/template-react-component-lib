@@ -12,8 +12,10 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c rollup.config.mjs",
     "build:watch": "rollup -c rollup.config.mjs -w",
+    "build": "rollup -c rollup.config.mjs",
+    "postpack": "clean-package restore",
+    "prepack": "clean-package",
     "test": "jest"
   },
   "keywords": [],
@@ -36,6 +38,7 @@
     "@typescript-eslint/parser": "^5.54.0",
     "@vitejs/plugin-react": "^3.1.0",
     "babel-jest": "^29.4.3",
+    "clean-package": "^2.2.0",
     "eslint": "^8.35.0",
     "eslint-import-resolver-typescript": "^3.5.3",
     "eslint-plugin-import": "^2.27.5",
@@ -57,5 +60,13 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
+  },
+  "clean-package": {
+    "indent": 2,
+    "remove": [
+      "clean-package",
+      "devDependencies",
+      "scripts"
+    ]
   }
 }
