@@ -1,0 +1,18 @@
+import { Button } from '@theomer77/template-react-component-lib';
+
+# The component
+
+This is the Button component:
+
+<div style={{ display: 'flex', flexDirection: 'row', gap: '0.5rem' }}>
+{[...Array(5).keys()].map((key) => (
+
+<Button key={key} label={`Button${key}`} />
+))}
+</div>
+
+## Usage
+
+```tsx
+<Button label='Button' />
+```

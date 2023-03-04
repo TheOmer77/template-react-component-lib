@@ -19,10 +19,11 @@
   "plugins": ["react", "@typescript-eslint"],
   "settings": {
     "import/parsers": { "@typescript-eslint/parser": [".ts", ".tsx"] },
+    "import/ignore": ["nextra"],
     "import/resolver": {
       "typescript": {
         "alwaysTryTypes": true,
-        "project": ["./packages/*/tsconfig.json"]
+        "project": ["./packages/*/tsconfig.json", "./docs/tsconfig.json"]
       }
     }
   },
