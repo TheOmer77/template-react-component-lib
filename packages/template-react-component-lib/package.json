@@ -39,7 +39,6 @@
     "@types/react": "^18.0.28",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
-    "@vitejs/plugin-react": "^3.1.0",
     "babel-jest": "^29.4.3",
     "clean-package": "^2.2.0",
     "eslint": "^8.35.0",
